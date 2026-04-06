@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    app:strokeWidth="0dp">
+
+<FrameLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<!-- Ảnh -->
+<ImageView
+    android:id="@+id/gallery_image_selectable"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:scaleType="centerCrop"
+    tools:srcCompat="@tools:sample/backgrounds/scenic"
+    xmlns:tools="http://schemas.android.com/tools"/>
+
+<!-- Overlay hiển thị khi ảnh được chọn -->
+<!-- Có thể là một màu bán trong suốt, một icon dấu tick, hoặc viền -->
+<View
+    android:id="@+id/selection_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6600BCD4"
+    android:visibility="gone" /> <!-- Mặc định ẩn -->
+
+<!-- Icon dấu tick (tùy chọn khác) -->
+<ImageView
+    android:id="@+id/selection_tick"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_gravity="top|end"
+    android:layout_margin="4dp"
+    app:tint="@color/white"
+    android:visibility="gone" /> <!-- Liên kết visibility với selection_overlay nếu dùng -->
+
+
+</FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>

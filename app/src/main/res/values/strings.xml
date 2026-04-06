@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">PicEditor</string>
+    <string name="search">SearchView\n</string>
+    <string name="name">Name</string>
+    <string name="photos">Photos</string>
+    <string name="restore">Restore</string>
+    <string name="delete_forever">Delete Forever</string>
+    <string name="add_image">Add Image</string>
+    <string name="rotate">Rotate</string>
+    <string name="crop">Crop</string>
+    <string name="filter">Filter</string>
+    <string name="adjust">Adjust</string>
+    <string name="play">Play</string>
+    <string name="trash">Trash</string>
+    <string name="lock">Lock</string>
+    <string name="hide">Hide</string>
+    <string name="info">Info</string>
+    <string name="enter_description">Enter description</string>
+    <string name="ng_b_nh_v_i_cloud">Đồng bộ ảnh với Cloud</string>
+    <string name="t_o_slideshow">Tạo Slideshow</string>
+    <string name="sorted_by_name">Đang xếp theo tên ✓</string>
+    <string name="sorted_by_date">Đang xếp theo ngày ✓</string>
+    <string name="sort_by_name">Xếp theo tên</string>
+    <string name="sort_by_date">Xếp theo ngày chụp</string>
+    <string name="giao_di_n_t_i">Giao diện tối</string>
+    <string name="giao_di_n_s_ng">Giao diện sáng</string>
+    <string name="facebook">Facebook</string>
+    <string name="messenger">Messenger</string>
+    <string name="gmail">Gmail</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="th_m_m_t">Thêm mô tả</string>
+    <string name="th_m_v_o_album">Thêm vào album</string>
+    <string name="n_nh_v_b_o_m_t">Ẩn ảnh và bảo mật</string>
+    <string name="t_l_m_m_n_h_nh_kh_a">Đặt làm màn hình khóa</string>
+    <string name="t_l_m_m_n_h_nh_ch_nh">Đặt làm màn hình chính</string>
+    <string name="chi_ti_t_nh">Chi tiết ảnh</string>
+    <string name="image">Image</string>
+    <string name="albums">Albums</string>
+
+    <!-- New Strings -->
+    <string name="x_a">Xóa</string>
+    <string name="th_ch">Thích</string>
+    <string name="b_th_ch">Bỏ thích</string>
+    <string name="chia_s">Chia sẻ</string>
+    <string name="ch_nh_s_a">Sửa</string>
+    <string name="th_m">Thêm</string>
+    <string name="quay_l_i">Quay lại</string>
+    <string name="x_a_nh">Xóa ảnh</string>
+    <string name="xac_nhan_xoa_anh">Bạn có chắc muốn chuyển ảnh này vào mục Đã xóa?</string>
+    <string name="xac_nhan_xoa_vinh_vien">Bạn có chắc muốn xóa vĩnh viễn ảnh này? Hành động này không thể hoàn tác.</string>
+    <string name="dong_y">Đồng ý</string>
+    <string name="huy">Hủy</string>
+    <string name="da_chuyen_vao_da_xoa">Đã chuyển ảnh vào mục Đã xóa</string>
+    <string name="loi_khi_xoa_anh">Lỗi khi xóa ảnh</string>
+    <string name="loi_khi_khoi_phuc_anh">Lỗi khi khôi phục ảnh</string>
+    <string name="da_them_vao_yeu_thich">Đã thêm vào Yêu thích</string>
+    <string name="da_xoa_khoi_yeu_thich">Đã xóa khỏi Yêu thích</string>
+    <string name="anh_yeu_thich">Ảnh yêu thích</string>
+    <string name="anh_da_xoa">Ảnh đã xóa</string>
+    <string name="khoi_phuc">Khôi phục</string>
+    <string name="xoa_vinh_vien">Xóa vĩnh viễn</string>
+    <string name="chi_tiet">Chi tiết</string>
+    <string name="da_khoi_phuc_anh">Đã khôi phục ảnh</string>
+    <string name="da_xoa_anh_vinh_vien">Đã xóa ảnh vĩnh viễn</string>
+    <string name="khong_tim_thay_anh">Không tìm thấy ảnh</string>
+    <string name="khong_co_anh_nao">Không có ảnh nào</string>
+    <string name="yeu_cau_quyen_quan_ly_file">Ứng dụng cần quyền quản lý file để di chuyển ảnh vào mục Đã xóa và khôi phục. Vui lòng cấp quyền trong cài đặt.</string>
+    <string name="di_den_cai_dat">Đi đến Cài đặt</string>
+    <string name="quyen_quan_ly_file_bi_tu_choi">Quyền quản lý file bị từ chối. Không thể thực hiện thao tác.</string>
+    <string name="quyen_ghi_bi_tu_choi">Quyền ghi bộ nhớ bị từ chối. Không thể xóa/khôi phục ảnh.</string>
+    <string name="yeu_cau_quyen_ghi">Ứng dụng cần quyền ghi vào bộ nhớ để di chuyển/xóa ảnh.</string>
+
+    <string name="xem_anh_yeu_thich">Xem ảnh yêu thích</string>
+    <string name="xem_anh_da_xoa">Xem ảnh đã xóa</string>
+
+    <string name="detail_ten">Tên: </string>
+    <string name="detail_duong_dan">Đường dẫn: </string>
+    <string name="detail_kich_thuoc">Kích thước: </string>
+    <string name="detail_ngay_chup">Ngày sửa đổi: </string> <!-- Hoặc "Ngày chụp" nếu bạn có EXIF -->
+    <string name="detail_mo_ta">Mô tả: </string>
+    <string name="chua_co_mo_ta">Chưa có mô tả</string>
+    <string name="dong">Đóng</string>
+    <string name="luu">Lưu</string>
+     <string name="da_luu_mo_ta">Đã lưu mô tả.</string>
+    <string name="khong_the_doc_file_anh">Không thể đọc tệp ảnh.</string>
+    <string name="da_dat_man_hinh_chinh">Đã đặt làm hình nền màn hình chính.</string>
+    <string name="da_dat_man_hinh_khoa">Đã đặt làm hình nền màn hình khóa.</string>
+    <string name="da_dat_hinh_nen">Đã đặt làm hình nền.</string>
+    <string name="loi_dat_hinh_nen">Lỗi khi đặt hình nền: </string>
+    <string name="anh_qua_lon">Ảnh quá lớn để đặt làm hình nền.</string>
+    <string name="loi_tao_uri_chia_se">Lỗi khi tạo URI để chia sẻ.</string>
+    <string name="xem_anh_nay">Xem ảnh này!</string>
+    <string name="chia_se_anh_qua">Chia sẻ ảnh qua</string>
+    <string name="khong_co_ung_dung_chia_se">Không tìm thấy ứng dụng nào để chia sẻ.</string>
+
+    <!-- Permissions -->
+    <string name="yeu_cau_quyen">Yêu cầu quyền</string>
+    <string name="yeu_cau_quyen_ghi_de_xoa">Ứng dụng cần quyền ghi vào bộ nhớ để di chuyển ảnh vào thư mục đã xóa.</string>
+    <string name="quyen_ghi_bi_tu_choi_khong_the_xoa">Quyền ghi bị từ chối. Không thể xóa ảnh.</string>
+
+    <!-- MANAGE_EXTERNAL_STORAGE Specific -->
+    <string name="yeu_cau_quyen_dac_biet">Yêu cầu quyền đặc biệt</string>
+    <string name="yeu_cau_quyen_quan_ly_file_de_xoa">Trên Android 11+, ứng dụng cần quyền truy cập tất cả các tệp để di chuyển ảnh vào thư mục đã xóa nằm ngoài thư mục riêng của ứng dụng.</string>
+    <string name="quyen_quan_ly_file_bi_tu_choi_khong_the_xoa">Quyền quản lý tệp bị từ chối. Không thể xóa ảnh vào vị trí này.</string>
+    <string name="xoa_that_bai_yeu_cau_quyen">Xóa thất bại và Yêu cầu quyền</string> <!-- Dùng & cho dấu & -->
+    <string name="giai_thich_yeu_cau_quan_ly_file_khi_xoa">Không thể di chuyển ảnh vào thư mục đã xóa. Ứng dụng cần quyền truy cập tất cả các tệp để thực hiện hành động này trên Android 11+. Bạn có muốn đến cài đặt để cấp quyền không?</string>
+    <string name="huy_xoa">Hủy xóa</string>
+    <string name="da_huy_xoa">Đã hủy thao tác xóa.</string>
+    <string name="quyen_da_duoc_cap_thu_lai">Quyền đã được cấp. Đang thử xóa lại…</string> <!-- Ba chấm (...) -->
+    <string name="quyen_quan_ly_file_van_bi_tu_choi">Quyền quản lý tất cả các tệp vẫn bị từ chối. Không thể xóa.</string>
+    <string name="khong_the_mo_cai_dat_quyen">Không thể mở màn hình cài đặt quyền.</string>
+    <string name="loi_khi_xoa_anh_quyen_ghi">Lỗi khi xóa ảnh. Vui lòng cấp quyền ghi bộ nhớ.</string>
+    <string name="chuc_nang_chinh_sua_chua_co">Chức năng chỉnh sửa chưa có.</string>
+
+
+    <!-- Các chuỗi đã có hoặc được sử dụng trong code mới -->
+     <string name="khong_the_lay_duong_dan_anh">Không thể lấy đường dẫn ảnh.</string>
+     <string name="chuc_nang_chua_co">Chức năng này chưa được phát triển.</string>
+   <!-- Sửa lại cho phù hợp với file.lastModified() -->
+    <string name="detail_ngay_tao">Ngày sửa đổi: </string>
+    <string name="ok">OK</string>
+     <string name="da_dat_hinh_nen_chinh">Đã đặt làm hình nền màn hình chính.</string>
+    <string name="da_dat_hinh_nen_khoa">Đã đặt làm hình nền màn hình khóa.</string>
+    <string name="loi_khi_dat_hinh_nen">Lỗi khi đặt hình nền: </string>
+    <string name="anh_qua_lon_lam_hinh_nen">Ảnh quá lớn để đặt làm hình nền.</string>
+
+    <!-- Chuỗi mới cho logic quyền MANAGE_EXTERNAL_STORAGE khi xóa thất bại -->
+    <string name="xoa_that_bai_title">Xóa thất bại</string>
+    <string name="xoa_that_bai_manage_storage_message">Không thể xóa ảnh. Ứng dụng cần quyền quản lý tất cả các tệp để thực hiện thao tác này bên ngoài thư mục riêng. Cấp quyền trong Cài đặt?</string>
+     <string name="xoa_da_huy">Đã hủy thao tác xóa.</string>
+
+    <!-- Chuỗi cho yêu cầu quyền ban đầu -->
+    <string name="yeu_cau_quyen_dac_biet_title">Yêu cầu quyền đặc biệt</string>
+    <string name="yeu_cau_quyen_title">Yêu cầu quyền</string>
+
+    <!-- Thêm các chuỗi khác nếu cần cho menu, dialogs, v.v. -->
+    <!-- Ví dụ cho menu "More" -->
+    <string name="them_mo_ta">Thêm mô tả</string>
+    <string name="them_vao_album">Thêm vào album</string>
+    <string name="an_anh">Ẩn ảnh</string>
+    <string name="dat_lam_hinh_nen">Đặt làm hình nền</string>
+    <string name="man_hinh_chinh">Màn hình chính</string>
+    <string name="man_hinh_khoa">Màn hình khóa</string>
+    <string name="xoa_that_bai_kiem_tra_quyen_message">Vui lòng cấp quyền truy cập .</string>
+    <string name="quyen_da_cap_thu_lai">Quyền đã được cấp. Vui lòng thử lại thao tác.</string>
+    <string name="kiem_tra_quyen_thu_lai">Đã quay lại từ cài đặt. Vui lòng thử lại thao tác nếu cần.</string>
+    <string name="khong_the_mo_cai_dat_ung_dung">Không thể mở màn hình cài đặt ứng dụng.</string>
+    <string name="vui_long_kiem_tra_quyen_files">Vui lòng kiểm tra quyền \"Tệp và nội dung nghe nhìn\" hoặc quyền \"Bộ nhớ\" trong cài đặt.</string>
+
+    <!-- Các chuỗi khác có thể bạn đã có hoặc cần -->
+</resources>

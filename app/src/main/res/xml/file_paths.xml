@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Share files from internal storage -->
+    <external-path name="external_files" path="." />
+
+    <!-- Share files from cache -->
+    <cache-path name="cache_files" path="." />
+
+    <!-- Share files from files directory -->
+    <files-path name="files" path="." />
+</paths>

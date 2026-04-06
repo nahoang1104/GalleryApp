@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/share_facebook"
+        android:title="@string/facebook" />
+    <item
+        android:id="@+id/share_messenger"
+        android:title="@string/messenger" />
+    <item
+        android:id="@+id/share_gmail"
+        android:title="@string/gmail" />
+    <item
+        android:id="@+id/share_bluetooth"
+        android:title="@string/bluetooth" />
+</menu>

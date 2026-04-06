@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sync_cloud"
+        android:title="@string/ng_b_nh_v_i_cloud" />
+    <item
+        android:id="@+id/create_slideshow"
+        android:title="@string/t_o_slideshow" />
+    <item
+        android:id="@+id/sort_by_name"
+        android:title="Xếp theo tên" />
+    <item
+        android:id="@+id/sort_by_date"
+        android:title="Xếp theo ngày chụp" />
+    <item
+        android:id="@+id/view_favorites"
+        android:title="@string/xem_anh_yeu_thich" />
+    <item
+        android:id="@+id/view_deleted"
+        android:title="@string/xem_anh_da_xoa" />
+    <item
+        android:id="@+id/theme_dark"
+        android:title="@string/giao_di_n_t_i" />
+    <item
+        android:id="@+id/theme_light"
+        android:title="@string/giao_di_n_s_ng" />
+</menu>

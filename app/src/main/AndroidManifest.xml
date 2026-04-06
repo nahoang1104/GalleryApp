@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Quyền đọc ảnh cơ bản -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Quyền đọc ảnh cho Android 13+ -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <!-- Quyền ghi cần thiết để di chuyển/xóa file (đặc biệt cho Android < 10) -->
+    <!-- Trên Android 10, cần requestLegacyExternalStorage="true" trong application -->
+    <!-- Trên Android 11+, quyền này ít tác dụng hơn cho việc truy cập ngoài thư mục ứng dụng -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" /> <!-- Giới hạn cho API <= 29 -->
+
+    <!-- Quyền truy cập tất cả file, cần thiết nếu dùng File API để di chuyển/xóa tự do trên Android 11+ -->
+    <!-- Rất khó được duyệt trên Google Play, chỉ dùng nếu các phương pháp khác thất bại -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PicEditor"
+        android:requestLegacyExternalStorage="true"
+    tools:targetApi="31">
+    <activity
+        android:name=".AlbumViewActivity"
+        android:exported="false"
+        android:label="Xem Album"/> <!-- Label có thể bỏ nếu dùng tiêu đề Toolbar -->
+    <activity
+        android:name=".FavoritesActivity"
+        android:exported="false"
+        android:label="Ảnh yêu thích"/>
+    <activity
+        android:name=".DeletedActivity"
+        android:exported="false"
+        android:label="Ảnh đã xóa"/>
+    <activity
+        android:name=".CreateSlideShowActivity"
+        android:exported="false" />
+    <activity
+        android:name=".CreateAlbumActivity"
+        android:exported="false" />
+    <activity
+        android:name=".AllAlbumsActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ViewPicture"
+        android:exported="false" />
+    <activity
+        android:name=".MainActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
+
+    <provider
+        android:name="androidx.core.content.FileProvider"
+        android:authorities="${applicationId}.provider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_paths" />
+    </provider>
+</application>
+
+    </manifest>
